@@ -58,7 +58,7 @@ export default class Chart extends React.Component {
         const style = styler([{ key: "precip", color: "#A5C8E1", selected: "#2CB1CF" }]);
 
         return (
-            <div style={{width: '100%'}}>
+            <div>
                 <div className="row">
                     <div className="col-md-12">
                         <b>BarChart</b>
